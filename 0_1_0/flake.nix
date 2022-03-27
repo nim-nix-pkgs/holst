@@ -11,6 +11,7 @@
   inputs.src-holst-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-holst-0_1_0.owner = "ruivieira";
   inputs.src-holst-0_1_0.repo  = "nim-holst";
+  inputs.src-holst-0_1_0.dir   = "";
   inputs.src-holst-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
